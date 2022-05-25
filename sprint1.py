@@ -8,7 +8,7 @@ import geopandas as gpd
 import warnings
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv("data/PH-HRIR-merged.csv")
+df = pd.read_csv("data/PH-HRIR-merged-sampled.csv")
 my_page = st.sidebar.radio('Page Navigation', ['page 1', 'page 2', 'page 3', 'page 4', 'page 5'])
 
 if my_page == 'page 1':
